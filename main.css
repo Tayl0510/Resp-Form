@@ -1,0 +1,59 @@
+*{ 
+    padding: 0;
+    margin:0;
+}
+.masthead {
+    background-color:#B3E2FF;
+    text-align: center;
+}
+h1 {
+    font-size: 1.5rem;
+}
+h3 {
+    padding: 10 0 0;
+}
+h4 {
+    display:none;
+}
+body {
+    background-color:#F0F9FF;
+}
+input {
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin:5 auto;
+    float:left;
+}
+#sbmtBtn {
+    width: 150px;
+    float: right;
+}
+form{
+    width:300px;
+    margin: 0 auto;
+}
+
+@media all and (min-width:700px) {
+    h4 {
+        display:block;
+        width: 20%;
+    }
+    form {
+        width:90%;
+    }
+    form div {
+        -webkit-column-count: 2;
+    }
+}
+    
+@media all and (min-width:1000px) {
+    input {
+        float: left;
+        width: 80%;
+    }
+    h4 {
+        float: left;
+    }
+}
